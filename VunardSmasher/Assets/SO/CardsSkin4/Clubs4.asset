@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8574fc3348a9fe429b34e608ea856ce, type: 3}
+  m_Name: Clubs4
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: 21300000, guid: 1f41e0dde597c9246bf194ee04b96b96, type: 3}
+  - {fileID: 21300000, guid: 068dd79df943fcb4cb78a438fa2932f0, type: 3}
+  - {fileID: 21300000, guid: 175a582fbf6aa9e48901d326afe9c020, type: 3}
+  - {fileID: 21300000, guid: b05ac221abf647a4287b849c0f716043, type: 3}
+  - {fileID: 21300000, guid: 5a92eb24052cbc54692793c47119e755, type: 3}
+  - {fileID: 21300000, guid: df3daa29272d21c46a65b7a62930a102, type: 3}
+  - {fileID: 21300000, guid: b5fedad68b86d9a4a84246a4c7425414, type: 3}
+  - {fileID: 21300000, guid: 9ad909a0b9f464141bff801edc073e5b, type: 3}
+  - {fileID: 21300000, guid: 9ad909a0b9f464141bff801edc073e5b, type: 3}
