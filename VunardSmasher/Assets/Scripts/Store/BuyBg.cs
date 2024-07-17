@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Purchasing;
+using UnityEngine.Rendering;
 
 public class BuyBg : MonoBehaviour
 {
@@ -29,10 +30,29 @@ public class BuyBg : MonoBehaviour
 
     private void Start()
     {
-        useBtn.onClick.AddListener(SelectItem);
+        OnStart();
+        PrchsM.Instance.onMs += OnStart;
+    }
+
+    private void OnStart(bool restore = false)
+    {
         
-        if (donateItem) buyBtn.onClick.AddListener(() => TryBuyProduct(donateItemId));
+        
+        useBtn.onClick.AddListener(SelectItem);
+
+        if (donateItem)
+        {
+            if (restore)
+            {
+                PlayerPrefs.SetInt("BG4", 1);
+                PlayerPrefs.SetInt("curBG", 3);
+                BuyBG();
+            }
+       
+            buyBtn.onClick.AddListener(() => TryBuyProduct(donateItemId));
+        }
         else buyBtn.onClick.AddListener(BuyBG);
+
 
 
         scoreManager = ServiceLocator.GetService<ScoreManager>();

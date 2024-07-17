@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Purchasing.Extension;
 using UnityEngine.Purchasing;
+using System;
 
 public class PrchsM : MonoBehaviour, IDetailedStoreListener
 {
@@ -11,6 +12,8 @@ public class PrchsM : MonoBehaviour, IDetailedStoreListener
     private static PrchsM _instance;
     public IStoreController _storeController;
     private IExtensionProvider _storeExtensionProvider;
+
+    public Action<bool> onMs;
 
     public static PrchsM Instance
     {
@@ -121,6 +124,9 @@ public class PrchsM : MonoBehaviour, IDetailedStoreListener
                 if (result)
                 {
                     Debug.Log("Purchases successfully restored.");
+                  
+                    onMs?.Invoke(true);
+
                 }
                 else
                 {
