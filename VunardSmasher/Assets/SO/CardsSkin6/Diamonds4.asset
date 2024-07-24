@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8574fc3348a9fe429b34e608ea856ce, type: 3}
+  m_Name: Diamonds4
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: 21300000, guid: ee2611bac32126f4aad866958644b9ee, type: 3}
+  - {fileID: 21300000, guid: 93a8b7caf9f909e469fe2a4dd896445d, type: 3}
+  - {fileID: 21300000, guid: af70f999a672cfa4297d3da46024a695, type: 3}
+  - {fileID: 21300000, guid: c420de7d2f4ca0d43a4347488478674c, type: 3}
+  - {fileID: 21300000, guid: be4a8f12d9202a94492e719dad420eb2, type: 3}
+  - {fileID: 21300000, guid: dd0231abe15e23b45b3ebfbfd288937d, type: 3}
+  - {fileID: 21300000, guid: e07950a678ba51e498e57f5d3cbd32cb, type: 3}
+  - {fileID: 21300000, guid: 5e9fc513b9efa4e4db9bfc7d14a108aa, type: 3}
+  - {fileID: 21300000, guid: e57b1076946cb754e9dd2ef3f76b33f2, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8574fc3348a9fe429b34e608ea856ce, type: 3}
+  m_Name: Spades4
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: 21300000, guid: f66d49f771213e246881030ac2c0f392, type: 3}
+  - {fileID: 21300000, guid: 21493af0454923b4b957be6b724de5da, type: 3}
+  - {fileID: 21300000, guid: 226d7116c21bccc4ab32bf9c4be2200f, type: 3}
+  - {fileID: 21300000, guid: e6b7ce8d2008f2b4a9d97140a16fcb23, type: 3}
+  - {fileID: 21300000, guid: 828a3a16d12829444989dd44e178e78e, type: 3}
+  - {fileID: 21300000, guid: 4a58016d3024faf4aa196ba65d451251, type: 3}
+  - {fileID: 21300000, guid: b476d3e85868ee141a4837960ef7ec85, type: 3}
+  - {fileID: 21300000, guid: 115be330087aefa4e9bfc674d143325a, type: 3}
+  - {fileID: 21300000, guid: ad67a949be46a664e8261f3d16ef8f12, type: 3}

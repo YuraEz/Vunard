@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9413b02fc16dc7b4295b2bbe164df465, type: 3}
+  m_Name: skin 4
+  m_EditorClassIdentifier: 
+  cardTypes:
+  - {fileID: 11400000, guid: 15fd501a1fdcd94448adb9f595719c35, type: 2}
+  - {fileID: 11400000, guid: 961a35780a8d5b647b91349a2c5e3fc4, type: 2}
+  - {fileID: 11400000, guid: a66aab5d00dee414095696a33c438faa, type: 2}
+  - {fileID: 11400000, guid: 609e38d2ff9d5324fb69080ac382bace, type: 2}

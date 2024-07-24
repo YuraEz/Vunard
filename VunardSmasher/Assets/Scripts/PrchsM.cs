@@ -50,7 +50,11 @@ public class PrchsM : MonoBehaviour, IDetailedStoreListener
 
         var builder = ConfigurationBuilder.Instance(StandardPurchasingModule.Instance());
         builder.AddProduct("vunard_location", ProductType.NonConsumable);
+        builder.AddProduct("vunard_location1", ProductType.NonConsumable);
+        builder.AddProduct("vunard_location2", ProductType.NonConsumable);
         builder.AddProduct("vunard_skin", ProductType.NonConsumable);
+        builder.AddProduct("vunard_skin1", ProductType.NonConsumable);
+        builder.AddProduct("vunard_skin2", ProductType.NonConsumable);
 
         UnityPurchasing.Initialize(this, builder);
     }
@@ -83,11 +87,43 @@ public class PrchsM : MonoBehaviour, IDetailedStoreListener
                 buybg.BuyBG();
 
                 break;
+            case "vunard_location1":
+                Debug.Log("vunard_location1 successfully purchased!");
+                PokupkaScreen.Instance.ShowSuccess();
+                PlayerPrefs.SetInt("BG5", 1);
+                PlayerPrefs.SetInt("curBG", 4);
+                buybg.BuyBG();
+
+                break;
+            case "vunard_location2":
+                Debug.Log("vunard_location2 successfully purchased!");
+                PokupkaScreen.Instance.ShowSuccess();
+                PlayerPrefs.SetInt("BG6", 1);
+                PlayerPrefs.SetInt("curBG", 5);
+                buybg.BuyBG();
+
+                break;
             case "vunard_skin":
                 Debug.Log("vunard_skin successfully purchased!");
                 PokupkaScreen.Instance.ShowSuccess();
                 PlayerPrefs.SetInt("Card4", 1);
                 PlayerPrefs.SetInt("curCard", 3);
+                buybg.BuyBG();
+
+                break;
+            case "vunard_skin1":
+                Debug.Log("vunard_skin1 successfully purchased!");
+                PokupkaScreen.Instance.ShowSuccess();
+                PlayerPrefs.SetInt("Card5", 1);
+                PlayerPrefs.SetInt("curCard", 4);
+                buybg.BuyBG();
+
+                break;
+            case "vunard_skin2":
+                Debug.Log("vunard_skin2 successfully purchased!");
+                PokupkaScreen.Instance.ShowSuccess();
+                PlayerPrefs.SetInt("Card6", 1);
+                PlayerPrefs.SetInt("curCard", 5);
                 buybg.BuyBG();
 
                 break;

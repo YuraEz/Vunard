@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8574fc3348a9fe429b34e608ea856ce, type: 3}
+  m_Name: Hearts4
+  m_EditorClassIdentifier: 
+  cardSprites:
+  - {fileID: 21300000, guid: 8bfdb77643d9c2c4184a953c0fc24899, type: 3}
+  - {fileID: 21300000, guid: 47227d0abf94394418fcd23f15d7e5ab, type: 3}
+  - {fileID: 21300000, guid: ac300b35e7343ea43982d399eeea7ec6, type: 3}
+  - {fileID: 21300000, guid: a63a0c3138058464da39849afed947f2, type: 3}
+  - {fileID: 21300000, guid: b2d86b91b16cdfe44b553b0ba6f9576a, type: 3}
+  - {fileID: 21300000, guid: 9f774602d8a1c3848b6e7548713d6ea2, type: 3}
+  - {fileID: 21300000, guid: a30eb4b04b91488498544e61328f3347, type: 3}
+  - {fileID: 21300000, guid: ce7c0231c2c89764bb8f15cd671d7350, type: 3}
+  - {fileID: 21300000, guid: db01579cac568ef4ab05516a3cdb2f97, type: 3}

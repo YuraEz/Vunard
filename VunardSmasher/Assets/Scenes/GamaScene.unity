@@ -4998,11 +4998,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b461dfab3e137bb488a884ed0711f589, type: 2}
   - {fileID: 11400000, guid: 1d30d9fec9f92c04ca4eee10820ea020, type: 2}
   - {fileID: 11400000, guid: 11255a9a41a5c494bbeb1b2f60efefe5, type: 2}
+  - {fileID: 11400000, guid: 43a9f2bc7a4f426418a10a290df2e9cf, type: 2}
+  - {fileID: 11400000, guid: 2f0e6ce02113c9a4fbee741847d68c14, type: 2}
   bgList:
   - {fileID: 21300000, guid: 947259b37edefd242b715561b7c276db, type: 3}
   - {fileID: 21300000, guid: 77a09c8a3e9afef489c788ae0004114a, type: 3}
   - {fileID: 21300000, guid: 891b27569f43d9d4cab100c8cca60cc7, type: 3}
   - {fileID: 21300000, guid: 960167f4b26d76f40a62e0dde2914d1d, type: 3}
+  - {fileID: 21300000, guid: 6ef46aeea5c788e4d800ea4a32b0ed10, type: 3}
+  - {fileID: 21300000, guid: eebfde0f619cb4249a7bae5591ca7264, type: 3}
   bgImg: {fileID: 19651290}
   cardDecor1: {fileID: 855863577}
   cardDecor2: {fileID: 652696561}
